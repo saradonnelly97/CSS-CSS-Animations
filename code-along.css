@@ -39,7 +39,10 @@
   width: 500px;
   margin: auto;
   background-color: palegreen;
-
+  animation-name: sale-bar;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 5sec;
 }
 
 @keyframes sale-bar {
