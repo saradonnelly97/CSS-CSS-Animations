@@ -20,7 +20,7 @@
   width: 200px;
   height: 200px;
   filter: grayscale(100%);
-  transition: 2s;
+  transition: 0.5s;
   transform: scale(1.25) rotate(365deg);
 
 }
@@ -47,6 +47,8 @@
 
 @keyframes sale-bar {
   0% { background-color: lightgreen; width: 450px }
-  75% { background-color: #FF033E; width: 125x }
-  100% { background-color: crimson; width: 10px }
+  25% { background-color: gold; width: 375px }
+  50% { background-color: salmon; width: 250px; }
+  75% { background-color: #FF033E; width: 125px; border-radius: 50px; }
+  100% { background-color: crimson; width: 100px; border-radius: 0px; }
 }
